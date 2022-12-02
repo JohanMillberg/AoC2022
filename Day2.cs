@@ -7,7 +7,14 @@ public static class DayTwo
 {
     public static int partOne(string filePath)    
     {
-        var totalScore = File.ReadAllText(filePath).Split("\r\n").Select(i => calculateScore(i.Split(" ")[0], i.Split(" ")[1]));
+        var totalScore = File.ReadAllText(filePath).Split("\n").Select(i => calculateScore(i.Split(" ")[0], i.Split(" ")[1])).Sum();
+        return totalScore;
+    }
+
+    public static int partTwo(string filePath)
+    {
+        var totalScore = File.ReadAllText(filePath).Split("\n").Select(i => calculateScoreTwo(i.Split(" ")[0], i.Split(" ")[1])).Sum();
+        return totalScore;
     }
 
     private static int calculateScore(string firstMove, string secondMove)
@@ -30,6 +37,30 @@ public static class DayTwo
                 "X" => 7,
                 "Y" => 2,
                 "Z" => 6
+            }
+        };
+    }
+
+    private static int calculateScoreTwo(string firstMove, string gameResult)
+    {
+        return firstMove switch
+        {
+            "A" => gameResult switch {
+                "X" => 3,
+                "Y" => 4,
+                "Z" => 8
+            },
+
+            "B" => gameResult switch {
+                "X" => 1,
+                "Y" => 5,
+                "Z" => 9
+            },
+
+            "C" => gameResult switch {
+                "X" => 2,
+                "Y" => 6,
+                "Z" => 7
             }
         };
     }
