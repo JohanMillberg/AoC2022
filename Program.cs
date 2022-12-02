@@ -15,6 +15,6 @@ public class ControllerClass
 
     public static void Main()
     {
-        runDayOne();
+        // runDayOne();
     }
 }
