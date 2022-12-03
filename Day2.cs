@@ -3,15 +3,15 @@ using System.IO;
 
 namespace AoC2022;
 
-public static class DayTwo
+public class DayTwo: IDay
 {
-    public static int partOne(string filePath)    
+    public int partOne(string filePath)    
     {
         var totalScore = File.ReadAllText(filePath).Split("\n").Select(i => calculateScore(i.Split(" ")[0], i.Split(" ")[1])).Sum();
         return totalScore;
     }
 
-    public static int partTwo(string filePath)
+    public int partTwo(string filePath)
     {
         var totalScore = File.ReadAllText(filePath).Split("\n").Select(i => calculateScoreTwo(i.Split(" ")[0], i.Split(" ")[1])).Sum();
         return totalScore;

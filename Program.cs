@@ -1,29 +1,25 @@
 ﻿namespace AoC2022;
 
+public interface IDay
+{
+    public int partOne(string filepath);
+
+    public int partTwo(string filePath);
+};
+
 public class ControllerClass
 {
-    public static void runDayOne()
+    public static void runDay(IDay dayController, string filePath)
     {
-        int resultOne = DayOne.partOne("Input/day1.txt");
-        Console.WriteLine(String.Format("The elf that carries the most calories carries: {0},", resultOne));
+        int resultOne = dayController.partOne(filePath);
+        Console.WriteLine($"The result of part one is: {resultOne}");
 
-        int resultTwo = DayOne.partTwo("Input/day1.txt");
-        Console.WriteLine(String.Format("The top three elfs carry: {0},", resultTwo));
-
-    }
-
-    public static void runDayTwo()
-    {
-        int resultOne = DayTwo.partOne("Input/day2.txt");
-        Console.WriteLine($"Total score: {resultOne}");
-
-        int resultTwo = DayTwo.partTwo("Input/day2.txt");
-        Console.WriteLine($"Total score: {resultTwo}");
+        int resultTwo = dayController.partTwo(filePath);
+        Console.WriteLine($"The result of part two is: {resultTwo}");
     }
 
     public static void Main()
     {
-        // runDayOne();
-        runDayTwo();
+        runDay(new DayOne(), "Input/day1.txt");
     }
 }

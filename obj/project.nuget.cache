@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KWEGRrZR1VGQfp6Rz2SHf3XCkjSE+TSNcPIMisiS2Ou73eIQqcwAi0VirHOMEmW0+KI8UsVjH+XM80+VlomboQ==",
+  "dgSpecHash": "tjuIVc2aJHO9dtXdMqsD5Cpbrb741fmQCADBubSRWBzm/oOiIO3SEFTWA5h15dOwUhL7suFaRJh0fltNSogYwQ==",
   "success": true,
-  "projectFilePath": "/home/johan/code_files/dotnet_code/AoC2022/AoC2022.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/johan/Documents/code_files/dotnet_code/AoC2022/AoC2022.csproj",
+  "expectedPackageFiles": [
+    "/home/johan/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "/home/johan/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "/home/johan/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.11/microsoft.netcore.app.host.linux-x64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
