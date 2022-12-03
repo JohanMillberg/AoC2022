@@ -11,15 +11,19 @@ public class ControllerClass
 {
     public static void runDay(IDay dayController, string filePath)
     {
+        Console.WriteLine($"The result of {filePath.Split("/")[1].Split(".")[0]}");
+
         int resultOne = dayController.partOne(filePath);
         Console.WriteLine($"The result of part one is: {resultOne}");
 
         int resultTwo = dayController.partTwo(filePath);
-        Console.WriteLine($"The result of part two is: {resultTwo}");
+        Console.WriteLine($"The result of part two is: {resultTwo}\n");
     }
 
     public static void Main()
     {
         runDay(new DayOne(), "Input/day1.txt");
+        runDay(new DayTwo(), "Input/day2.txt");
+        runDay(new DayThree(), "Input/day3.txt");
     }
 }
