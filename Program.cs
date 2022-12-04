@@ -25,5 +25,6 @@ public class ControllerClass
         runDay(new DayOne(), "Input/day1.txt");
         runDay(new DayTwo(), "Input/day2.txt");
         runDay(new DayThree(), "Input/day3.txt");
+        runDay(new DayFour(), "Input/day4.txt");
     }
 }
