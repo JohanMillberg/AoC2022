@@ -35,7 +35,6 @@ public class SignalParser
         for (int i = 0; i < this.signal.Length - messageLength; i++)
         {
             string currentString = this.signal.Substring(i, messageLength);
-            Console.WriteLine(currentString);
             bool isUnique = Regex.IsMatch(currentString, @"^(?:([A-Za-z])(?!.*\1))*$");
 
             if (isUnique)
