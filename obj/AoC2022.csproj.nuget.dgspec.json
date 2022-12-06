@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/johan/Documents/code_files/dotnet_code/AoC2022/AoC2022.csproj": {}
+    "/home/johan/code_files/dotnet_code/AoC2022/AoC2022.csproj": {}
   },
   "projects": {
-    "/home/johan/Documents/code_files/dotnet_code/AoC2022/AoC2022.csproj": {
+    "/home/johan/code_files/dotnet_code/AoC2022/AoC2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/johan/Documents/code_files/dotnet_code/AoC2022/AoC2022.csproj",
+        "projectUniqueName": "/home/johan/code_files/dotnet_code/AoC2022/AoC2022.csproj",
         "projectName": "AoC2022",
-        "projectPath": "/home/johan/Documents/code_files/dotnet_code/AoC2022/AoC2022.csproj",
+        "projectPath": "/home/johan/code_files/dotnet_code/AoC2022/AoC2022.csproj",
         "packagesPath": "/home/johan/.nuget/packages/",
-        "outputPath": "/home/johan/Documents/code_files/dotnet_code/AoC2022/obj/",
+        "outputPath": "/home/johan/code_files/dotnet_code/AoC2022/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/johan/.nuget/NuGet/NuGet.Config"
@@ -48,20 +48,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
