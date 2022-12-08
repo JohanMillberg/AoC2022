@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/johan/.nuget/packages/": {}
+    "C:\\Users\\JohanMillberg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/johan/code_files/dotnet_code/AoC2022/AoC2022.csproj",
+      "projectUniqueName": "C:\\Users\\JohanMillberg\\OneDrive - Kidbrooke Advisory Ab\\Dokument\\egna_projekt\\AoC2022\\AoC2022.csproj",
       "projectName": "AoC2022",
-      "projectPath": "/home/johan/code_files/dotnet_code/AoC2022/AoC2022.csproj",
-      "packagesPath": "/home/johan/.nuget/packages/",
-      "outputPath": "/home/johan/code_files/dotnet_code/AoC2022/obj/",
+      "projectPath": "C:\\Users\\JohanMillberg\\OneDrive - Kidbrooke Advisory Ab\\Dokument\\egna_projekt\\AoC2022\\AoC2022.csproj",
+      "packagesPath": "C:\\Users\\JohanMillberg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JohanMillberg\\OneDrive - Kidbrooke Advisory Ab\\Dokument\\egna_projekt\\AoC2022\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/johan/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\JohanMillberg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

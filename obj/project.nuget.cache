@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KWEGRrZR1VGQfp6Rz2SHf3XCkjSE+TSNcPIMisiS2Ou73eIQqcwAi0VirHOMEmW0+KI8UsVjH+XM80+VlomboQ==",
+  "dgSpecHash": "FDAmfqHsW5BGU9YT8GgqNKrzrDhT/dAWVEX4Bh2FPsOg7/dWZ4/Lvc+Lsf54fzJVQAxOnM+9coA91uYxmRLAEw==",
   "success": true,
-  "projectFilePath": "/home/johan/code_files/dotnet_code/AoC2022/AoC2022.csproj",
+  "projectFilePath": "C:\\Users\\JohanMillberg\\OneDrive - Kidbrooke Advisory Ab\\Dokument\\egna_projekt\\AoC2022\\AoC2022.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
