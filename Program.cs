@@ -39,12 +39,13 @@ public class ControllerClass
 
     public static void Main()
     {
-        runDay(new DayOne(), "Input/day1.txt");
-        runDay(new DayTwo(), "Input/day2.txt");
-        runDay(new DayThree(), "Input/day3.txt");
-        runDay(new DayFour(), "Input/day4.txt");
-        runDayString(new DayFive(), "Input/day5.txt");
-        runDay(new DaySix(), "Input/day6.txt");
-        runDay(new DaySeven(), "Input/day7.txt");
+        //runDay(new DayOne(), "Input/day1.txt");
+        //runDay(new DayTwo(), "Input/day2.txt");
+        //runDay(new DayThree(), "Input/day3.txt");
+        //runDay(new DayFour(), "Input/day4.txt");
+        //runDayString(new DayFive(), "Input/day5.txt");
+        //runDay(new DaySix(), "Input/day6.txt");
+        //runDay(new DaySeven(), "Input/day7.txt");
+        runDay(new DayEight(), "Input/day8.txt");
     }
 }
