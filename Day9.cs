@@ -65,9 +65,6 @@ public class DayNine: IDay
             newTailPositions.Add(rope.Last());
         }
 
-        var currentHeadPosition = rope[0];
-        var currentTailPosition = rope[ropeLength-1];
-
         return new CommandOutcome(newTailPositions, rope);
     }
 
